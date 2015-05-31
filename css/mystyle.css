@@ -1,0 +1,60 @@
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.title{
+	width:20em;
+	height:50em;
+	margin: 0 auto;
+	padding-top: 8em;
+}
+div{
+-webkit-animation: opacity_01 1.5s ease 0s 1 alternate;
+}
+
+
+.embFont01 {
+    font-family: T1;
+    font-size: 10em;
+	font-weight: 100;
+	position: relative;
+	padding-top: .5em;
+	margin-bottom: -.2em;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+ 
+.embFont02{
+	font-family: T2;
+	color:#333;
+	margin: .2em;
+	margin-right: -.1em;
+	text-align: right;
+	font-size: 2.5em;
+	-webkit-font-smoothing: antialiased;
+	-webkit-animation: opacity_01 7s ease 0s 1 alternate;
+}
+/*element.style {
+  -webkit-animation: bg-color 2s cubic-bezier(0.6, -0.5, 0.4, 1.4) 0s infinite normal none running;
+  -webkit-animation-play-state: running;
+}*/
+
+@-webkit-keyframes opacity_01
+{
+    0% { opacity: 0 ; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes opacity_02
+{
+    from { opacity: 1 ; }
+  	  to { opacity: 0; }
+}
+
+
+/*animation: myAnimation 2 2 0 1 direction;*/
+/*animation-name: 動畫名稱;
+animation-duration: 動畫作用時間;
+animation-timing-function: 動畫補間時運用的計算公式;
+animation-delay: 動畫需間隔多久後才開始;
+animation-iteration-count: 動畫作用次數;
+animation-direction: 動畫作用的方向;*/
